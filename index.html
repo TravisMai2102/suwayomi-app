@@ -13,26 +13,16 @@
 
 <link rel="apple-touch-icon" href="icon.png">
 
-<style>
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background: black;
-}
-
-iframe {
-  border: none;
-  width: 100%;
-  height: 100%;
-}
-</style>
-
 </head>
 
-<body>
+<body style="background:black;">
 
-<iframe src="http://192.168.100.110:4567"></iframe>
+<script>
+setTimeout(function() {
+  window.location.href = "http://192.168.100.110:4567";
+}, 500);
+
+</script>
 
 </body>
 </html>
