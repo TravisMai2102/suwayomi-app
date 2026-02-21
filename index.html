@@ -7,22 +7,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- iOS PWA fullscreen -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Suwayomi">
 
-<!-- Icon -->
 <link rel="apple-touch-icon" href="icon.png">
-
-<!-- Redirect -->
-<script>
-window.location.replace("http://192.168.100.110:4567");
-</script>
 
 </head>
 
-<body>
-</body>
+<body style="background:black;">
 
+<script>
+setTimeout(function() {
+  window.location.href = "http://192.168.100.110:4567";
+}, 500);
+
+</script>
+
+</body>
+</html>
 </html>
